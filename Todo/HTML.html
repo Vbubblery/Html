@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>HTMLS TodoList</title>
+<link href="jquery-ui-1.8.19.custom.css" rel="stylesheet" type="text/css" />
+<link href="colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+<link href="html.css" rel="stylesheet" type="text/css" />
+<script src="jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="jquery-ui-1.8.19.custom.min.js" type="text/javascript"></script>
+<script src="colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="html.js" type="text/javascript"></script>
+<script src="to.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            My simple TodoList
+            <img src="logo.jpg" width="70" height="70" align="top" />
+        </h1>
+    </header>
+
+    <div id="main">
+
+
+    </div>
+
+    <div class="clear"></div>
+
+    <footer>
+        <a class="button" id="button_add" href="#popup_content" />Add a Todo</a>
+    </footer>
+    <div style='display:none'>
+        <div id="popup_content">
+            <h3 id="title">Create a Todo</h3>
+            <div style="height:20px;">
+                <div id="validation">You have to enter a name for your todo!</div>
+            </div>
+            <form id="form">
+                <label id="name" for="name">Todo Name:</label>
+            	<input type="text" id="name_input" name="name" /><br/><br/>
+            	<label id="comments" for="comments">Comments:</label> <br/>
+            	<textarea rows="5" id="comments1" cols="32" name="comments"></textarea></br></br>
+            	<label id="date" for="date">Dead Line:</label>
+            	<input type="text" id="datepicker" /><br/><br/>
+        	    <div id="submit_wrap"><a class="button" id="button_submit" />Add</a></div>
+        	</form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+body {
+    text-align:center;
+    font-size:14px;
+}
+
+h1 {
+    font-size:400%;
+    font-style:italic;
+    font-weight:normal;
+}
+
+#main {
+    width: 90%;
+}
+
+#popup_content{
+    text-align:left;
+    padding: 10px;
+}
+
+#popup_content #title{
+    text-align:center;
+}
+
+#validation {text-align:center; color:#FF0000; display:none;}
+
+#submit_wrap {text-align:center;}
+
+.delete_wrap {height:18px;}
+.note_title {font-weight:bold; font-size:1.3em;}
+
+.clear {clear:both;}
+footer {
+    margin: 30px auto;
+}
+
+
+#main
+{
+width:100%;
+height:auto;
+
+}
+#name{margin-left:1cm;
+}
+#comments{margin-left:1cm;
+}
+#date
+{margin-left:1cm;
+}
+#comments1
+{margin-left:1cm;
+}
+
+#rw
+{color:red;
+    font-style:italic;
+margin-top:3.5cm;}
+#supinfolog
+{
+
+}
